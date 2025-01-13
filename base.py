@@ -12,7 +12,7 @@ gym.envs.registration.register(
     id='CustomOffice-v0',
     entry_point=EplusEnv,
     kwargs={
-        'building_file': '/Applications/EnergyPlus-24-2-0/ExampleFiles/ASHRAE901_OfficeLarge_STD2019_Denver.epJSON',
+        'building_file': '/Users/seoah/PycharmProjects/global-frontier-24/sinergym_env/lib/python3.12/site-packages/sinergym/data/buildings/ASHRAE901_OfficeLarge_STD2019_Denver.epJSON',
         'weather_files': ['KOR_Inchon.471120_IWEC.epw'],
         'reward_kwargs': {
             'temperature_variables': ['ZoneAirTemperature'],  # 상태에서 찾은 온도 변수명
